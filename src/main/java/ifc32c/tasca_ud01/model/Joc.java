@@ -10,7 +10,7 @@ import java.util.Map;
 public class Joc {
     private String nom;
     private String genere;
-    private Map<String, Integer> unitatsPerPlataforma; // P.ej. "PS5" -> 5, "PC" -> 3
+    private Map<String, Integer> unitatsPerPlataforma;
 
     public Joc(String nom, String genere) {
         this.nom = nom;
